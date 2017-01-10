@@ -1,0 +1,7 @@
+//tells babel to use the latest version!
+
+{
+  "presets": [
+    "latest"
+  ]
+}
