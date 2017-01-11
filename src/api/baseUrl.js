@@ -2,7 +2,7 @@ export default function getBaseUrl() {
   // const inDevelopment = window.location.hostname === 'localhost';
   // return inDevelopment ? 'http://localhost:3001/' : '/';
 
-  return getQueryStringParameterByName('useMockApi') ? 'http://localhost:3001/' : '/';
+  return getQueryStringParameterByName('useMockApi') ? 'http://localhost:3001/' : 'https://cryptic-beach-14737.herokuapp.com/';
 }
 
 //can be done much cleaner with a library!! jQUery
